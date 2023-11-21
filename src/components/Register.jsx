@@ -6,7 +6,7 @@ const Register = () => {
     const {createUser} = useContext(AuthContext)
     // console.log(authInfo);
 
-    const handleRegister = e => {
+    const handleRegister = e => { 
         e.preventDefault();
         const name = e.target.name.value;
         const email = e.target.email.value;

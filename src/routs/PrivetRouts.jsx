@@ -7,7 +7,7 @@ const PrivetRouts = ({children}) => {
     if(loading){
         return <span className="loading loading-spinner loading-lg"></span>
     }
-    if(user){
+    if(user){ 
         return children;
     }
     return <Navigate to='/login'></Navigate>;

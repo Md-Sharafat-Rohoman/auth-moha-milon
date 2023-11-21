@@ -5,7 +5,7 @@ const Roots = () => {
     return (
         <div>
             <Navber></Navber>
-            <Outlet></Outlet>
+            <Outlet></Outlet> 
         </div>
     );
 };

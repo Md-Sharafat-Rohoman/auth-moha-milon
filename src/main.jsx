@@ -30,7 +30,7 @@ const router = createBrowserRouter([
         path: '/register',
         element: <Register></Register>
       },
-      {
+      { 
         path:'/orders',
         element:<PrivetRouts> <Orders></Orders> </PrivetRouts> 
       },

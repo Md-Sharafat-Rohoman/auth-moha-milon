@@ -10,7 +10,7 @@ const Orders = () => {
                 <li>items-3</li>
                 <li>items-4</li>
                 <li>items-5</li>
-            </ul>
+            </ul> 
         </div>
     );
 };
